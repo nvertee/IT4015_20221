@@ -1,0 +1,12 @@
+Xin chào, đây là tài liệu hướng dẫn của mã dịch SHIFT CIPHER.
+1. Cơ chế (xem lại slide giáo trình).
+2. Một số lưu ý:
+  - encryp() : hàm mã hóa: Y = (X+K) mod 26
+  - decryp() : hàm giải mã: X = (Y-K) mod 26. 
+        Vì trong lập trình, có thể Y-K bị âm nên trong code có thực hiện cộng Y-K với 26*K để đảm bảo luôn dương mà không ảnh hưởng đến kết quả X.
+  - crack() : hàm phá mã, thử tất cả 26 khả năng.
+      Câu hỏi: Có thể cải tiến việc phá mã bằng cách: so sánh 26 plaintext tìm được, trích ra các "từ" có 1 ký tự để so sánh với "a, I" hay các từ có 2 ký tự 
+      với "at, in, on, he, to, an, ..." để giảm bớt kết quả (cho dễ quan sát hay không)?
+      Có thể tính tần suất xuất hiện để phát hiện kết quả sai hay không?
+
+--------------------------------------------------------------
