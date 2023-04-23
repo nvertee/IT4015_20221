@@ -1,3 +1,4 @@
+//Tham khảo
 //Yêu cầu C++0x Compiler. Chạy chương trình online: http://tpcg.io/7E62Y2
 
 #include <bits/stdc++.h>
