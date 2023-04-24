@@ -1,5 +1,5 @@
 //Tham khảo
-//Yêu cầu C++0x Compiler. Chạy chương trình online: http://tpcg.io/7E62Y2
+//Yêu cầu C++0x Compiler. Chạy chương trình online: http://tpcg.io/_838E84
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -125,8 +125,10 @@ public:
 
 int main() 
 {
-  string input =
-    "Qn rvyium, ioijg ltjvprbxvr dgbwvhj qvaf afts xm xyg atjvvv stf mj mvddr. Zp pxz mekbxhp rvbpjo riixuwk vpt Cmxgvègl gzrpty, Jikmsymtj Spzmjmq whh jwkrlwj dg teedkvxuk igxthxvf aiymeia dm gyczpjxvta xu xyg kxwlvt btex, njqro gfwts prukkpai kjm alrxvp dm xyg atjvvv stf. Xyka blxyql xz rfy kpspvf bwl Oruqhrm vzibprrvqdu. Jzplxuk dqzt yiggiilh jvzxukj qn roeickilvj jmaww eczgva uqec alv nmcnxy qn ioi gqbtuxzct hlgigb zlc. Fpkt alv nmcnxy qn ioi jgkglx bgg xz oeqec, alv eqeoii vmma mj tmlymkvmc prkq i rvvigaevrukvv uyddmg vj tqtjtrj, yqio e tqtjtr wqz thgy nmiaii qn ioi bgg. Thgy ewabqe ka ioie oisl yg qn esezpbtex kjii’z fvgv tugiaxilh sa wcl Grgapy gzrpty. Xyg kdki-stmprii vptu figizz xyg kxwlvt btex zp i hpqznig dep vw p Jevuig jmgjmg.";
+  string input;
+  cout << "Input: " << endl;
+  fflush(stdin);
+  getline(cin,input);
 
   array<double, 26> english = {
     0.08167, 0.01492, 0.02782, 0.04253, 0.12702, 0.02228,
